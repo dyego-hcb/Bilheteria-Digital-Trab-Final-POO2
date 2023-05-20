@@ -1,43 +1,41 @@
-# Biblioteca Digital - Trabalho Final POO2
+# Bilheteria Digital - Trabalho Final de POO2
 
-Este repositório contém o trabalho final da disciplina de Programação Orientada a Objetos 2 (POO2), que consiste em uma Biblioteca Digital implementada em Java.
+Este repositório contém o trabalho final da disciplina de Programação Orientada a Objetos 2 (POO2), que consiste em uma aplicação de bilheteria digital desenvolvida em Java.
 
-## Objetivo
+## Descrição
 
-O objetivo deste projeto é desenvolver uma aplicação de Biblioteca Digital, que permita o cadastro, consulta e empréstimo de livros. A aplicação utiliza os princípios da programação orientada a objetos e padrões de projeto para garantir uma estrutura sólida e extensível.
+A Bilheteria Digital é uma aplicação que permite a compra e reserva de ingressos para eventos, como filmes, shows e peças de teatro. A aplicação foi desenvolvida utilizando os princípios da programação orientada a objetos, visando a modularidade, reutilização de código e facilidade de manutenção.
+
+Através da Bilheteria Digital, os usuários podem:
+
+- Visualizar os eventos disponíveis.
+- Verificar a disponibilidade de ingressos para um evento específico.
+- Comprar ingressos para um evento.
+- Reservar ingressos para um evento por um período limitado de tempo.
+- Cancelar a reserva de ingressos.
 
 ## Funcionalidades
 
-A Biblioteca Digital possui as seguintes funcionalidades:
+A aplicação Bilheteria Digital possui as seguintes funcionalidades:
 
-- Cadastro de livros com informações como título, autor, editora e ISBN.
-- Consulta de livros disponíveis na biblioteca.
-- Realização de empréstimo de livros.
-- Registro de devolução de livros.
+- Cadastro de eventos: Permite cadastrar novos eventos na plataforma, incluindo informações como título, data, horário e quantidade de ingressos disponíveis.
+- Consulta de eventos: Permite visualizar a lista de eventos disponíveis na bilheteria.
+- Compra de ingressos: Permite aos usuários comprar ingressos para um evento específico, atualizando automaticamente a quantidade disponível de ingressos.
+- Reserva de ingressos: Permite aos usuários reservar ingressos para um evento por um período limitado de tempo. Após esse período, a reserva é automaticamente cancelada e os ingressos voltam a ficar disponíveis para compra.
+- Cancelamento de reserva: Permite aos usuários cancelar a reserva de ingressos antes do término do período de reserva.
 
-## Como executar
+## Como executar a aplicação
 
-Siga as etapas abaixo para executar a Biblioteca Digital em sua máquina local:
+Para executar a aplicação Bilheteria Digital, siga as etapas abaixo:
 
-1. Clone este repositório em sua máquina:
-git clone https://github.com/zebodexx/Biblioteca-Digital-Trab-Final-POO2.git
+1. Clone este repositório em sua máquina local:
+git clone https://github.com/zebodexx/Bilheteria-Digital-Trab-Final-POO2.git
 
-2. Acesse o diretório do projeto:
-cd Biblioteca-Digital-Trab-Final-POO2
 
-3. Compile os arquivos Java:
-javac -d bin src/*.java
+2. Abra o projeto em uma IDE de sua preferência, como o IntelliJ ou o Eclipse.
 
-4. Execute a aplicação:
-java -cp bin Main
+3. Certifique-se de ter o JDK (Java Development Kit) instalado em sua máquina.
 
-Certifique-se de ter o Java Development Kit (JDK) instalado em sua máquina.
+4. Compile e execute o projeto a partir da classe principal `Main.java`.
 
-## Estrutura do projeto
-
-A estrutura do projeto está organizada da seguinte maneira:
-
-- `src/`: Contém os arquivos Java que compõem a aplicação.
-- `bin/`: Diretório onde serão armazenados os arquivos compilados.
-- `docs/`: Documentação do projeto, incluindo diagramas de classe e de sequência.
-- `README.md`: Este arquivo que fornece informações sobre o projeto
+A aplicação será iniciada e estará pronta para uso.
